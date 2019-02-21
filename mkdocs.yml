@@ -3,6 +3,8 @@ copyright: 'Copyright &copy; 2018 Qutheory, LLC'
 site_url: 'https://docs.vapor.codes/3.0/'
 pages:
 - 'Overview': 'index.md'
+- 'What are Vapor Red': 'what-are-vapor-red.md'
+- 'Getting started': 'getting-started.md'
 - 'Providers': [
     'Digital Ocean': 'providers/digitalocean.md'
 ]
@@ -10,6 +12,7 @@ pages:
     'Create': 'projects/create.md',
     'Environment': 'projects/environment.md'
 ]
+- 'FAQ': 'faq.md'
 
 markdown_extensions:
     - admonition
