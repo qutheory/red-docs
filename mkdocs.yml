@@ -12,6 +12,9 @@ pages:
     'Create': 'projects/create.md',
     'Environment': 'projects/environment.md'
 ]
+- 'Backups': [
+    'Backup database': 'backups/backup-databases.md'
+]
 - 'FAQ': 'faq.md'
 
 markdown_extensions:
