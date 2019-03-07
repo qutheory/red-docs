@@ -1,17 +1,27 @@
 # Digital Ocean
 
-To setup a Droplet on Digital Ocean, start by going to Digital Ocean, under API generate a new Token.
+This guide will show you how to configure Digital Ocean as a Vapor Red server provider. 
 
-::: tip INFO
-Make sure your token have both **Read** and **Write** access
-:::
+If you have not added any Digital Ocean credentials to your account, you will be prompted to add them while creating your first server. On this prompt, there will be a link to the [Digital Ocean access token control panel](https://cloud.digitalocean.com/account/api/tokens).
 
-After the token have been created, copy it.
+![Digital Ocean Access Tokens](../images/digital-ocean-access-tokens.png)
 
-![digitalocean2](https://user-images.githubusercontent.com/2535140/53720065-144ec580-3e60-11e9-9b4b-75c0d1d80c09.png)
+Once you have accessed the token control panel, click Generate New Token.
 
-Now you can go to the Vapor Red dashboard, and create a new Server. When you do, select Digital Ocean, and input your token
+![Digital Ocean New Access Token](../images/digital-ocean-new-access-token.png)
 
-![create-server](https://user-images.githubusercontent.com/2535140/53720253-8b845980-3e60-11e9-9d31-63d47be7850f.png)
+You can name this token whatever you like, here we are naming it `vapor-red`. Just make sure to select both **Read** and **Write** access.
 
-You can now continue creating your server.
+After the token has been created, copy it. You will only be able to access the token's value once.
+
+![Digital Ocean Access Token](../images/digital-ocean-access-token.png)
+
+Now that you have a Digital Ocean API token, you can enter it into Vapor Red.
+
+![New Server Add Digital Ocean](../images/server-add-digital-ocean.png)
+
+Once you click save, the token will be validated. If successful, you will now be able to select your newly added credentials from the Credentials drop down. 
+
+![New Server w/ Digital Ocean Creds](../images/new-server-digital-ocean-creds.png)
+
+You can now continue creating your server. Continue at [Quick Start &rarr; Create Server](../quick-start.md#create-server)

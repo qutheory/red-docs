@@ -1,34 +1,55 @@
 # Quick Start
 
-[[toc]]
+Before you can start using Vapor Red, make sure to signup at [dashboard.vapor.red](https://dashboard.vapor.red/signup). Once you are logged into your new account, you are ready to create your first server.
 
-Before you can start using Vapor Red, make sure you create an account on https://dashboard.vapor.red
+![No Servers Yet](./images/no-servers-yet.png)
 
-When you are logged in, you can create your first server. To setup a server, you need to add credentials to allow Vapor Red to setup instances on your account. Select the provider you want from the sidebar.
+Click the blue plus button on the Servers page to get started.
 
-::: tip Note
-When selecting Ubuntu version, make sure to select the version supported by the Swift version you want.
-:::
+## Add Provider
 
-## Create app
+To create a server, you first need to configure credentials for one of Vapor Red's supported cloud platforms. Select one of the providers below for a step-by-step guide on configuring credentials.
 
-Before you can deploy an application, you need to install some Tools. Tools are programs that can be installed easily through the Vapor Red Dashboard. So click on your Server and click Tools
+| Provider | Docs |
+|-|-|
+|Digital Ocean|[Getting Started &rarr;](./providers/digital-ocean.md)|
+|AWS|[Getting Started &rarr;](./providers/aws.md)|
 
-![tools](https://user-images.githubusercontent.com/2535140/53724264-cc34a080-3e69-11e9-9d77-cd7f03795c5e.png)
+After you have configured the credentials for the first time, you will be able to re-use them in the future when creating new servers.
 
-Now install what you need, to setup a Vapor app, we need **Swift** and **Supervisor**. Nginx is only needed if you want a custom domain.
+## Create Server
 
-![tools2](https://user-images.githubusercontent.com/2535140/53724611-84624900-3e6a-11e9-9b9c-31dbd88a3bd7.png)
+Once you have chosen which credentials to use for this server, select the server options like size and operating system.
 
-When those are installed we can continue, navigate to the `Apps` page, and click new. Then select your server, and then enter your git remote.
+![New Server w/ Digital Ocean Creds](../images/new-server-digital-ocean-creds.png)
 
-![app1](https://user-images.githubusercontent.com/2535140/53724741-d4d9a680-3e6a-11e9-9c9a-5c13fe149cbc.png)
+!!! tip
+	When selecting Ubuntu version, make sure to select the version supported by the Swift version you want.
 
-On the next screen, you can fill in some more details, branch and framework.
+When you are done selecting options, click the Create button and Vapor Red will begin initializing your new server.
 
-If you use **git@** in your git remote, you will be presented with a public key. This is unique for your server, and allows the system to checkout the repository. Add this to your git account, and it will be able to checkout all repositories from your account.
+![New Server Creating](../images/new-server-creating.png)
 
-![app2](https://user-images.githubusercontent.com/2535140/53724789-f63a9280-3e6a-11e9-9dc1-f39af5563baf.png)
+You will receive an email once your new server is ready to use.
+
+## Create App
+
+Once your server is ready, navigate to the `Apps` page, and click the blue plus button. 
+
+![No apps yet](../images/no-apps-yet.png)
+
+Select your newly created server, then enter the git remote for the app you want to deploy. For this example, we will be deploying Vapor's [API Template](https://github.com/vapor/api-template.git).
+
+![New app detect project](../images/new-app-detect-project.png)
+
+Click next, then fill in the appropriate branch and framework. 
+
+!!! note
+	If you use an SSH (`git@...`) remote, you will be prompted to add your server's public key to your git account. This key is unique to your server and allows it to checkout the repository.
+
+![No apps yet](../images/new-app-form.png)
+
+## Configure App
 
 When the app is created, you can go to settings
 
