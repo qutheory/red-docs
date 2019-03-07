@@ -1,9 +1,10 @@
-# Overview
+# Vapor Red Docs
 
-Welcome to Vapor RED's documentation. Use the menu on the left or the search bar to navigate.
+Welcome to Vapor Red's documentation. Vapor Red is a tool for deploying and managing web applications on cloud platforms like Digital Ocean and AWS. If you are new to Vapor Red, check out the [Quick Start](./quick-start.md) guide. 
 
 !!! warning
-    Vapor RED is currently in Alpha
+	Vapor Red is currently invite-only, pre-release software. By using Vapor Red, you are agreeing to help us test this software and understand that data may be lost at any point. 
 
-!!! important
-    During Alpha Port `22` (SSH) on all servers are open to the world, this will change when we go into beta
+For more information, visit our website [vapor.red](https://vapor.red). To login to your account, visit [dashboard.vapor.red](https://dashboard.vapor.red).
+
+Thanks,<br>&mdash; Vapor Team

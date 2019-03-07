@@ -1,49 +1,43 @@
-site_name: 'Vapor RED - Docs'
-copyright: 'Copyright &copy; 2018 Qutheory, LLC'
-site_url: 'https://docs.vapor.codes/3.0/'
-pages:
+site_name: 'Vapor Red'
+copyright: 'Copyright &copy; 2019 Qutheory, LLC'
+site_url: 'https://docs.vapor.red/'
+nav:
 - 'Overview': 'index.md'
-- 'What are Vapor Red': 'what-are-vapor-red.md'
-- 'Getting started': 'getting-started.md'
-- 'Providers': [
-    'Digital Ocean': 'providers/digitalocean.md'
-]
-- 'Projects': [
-    'Create': 'projects/create.md',
-    'Environment': 'projects/environment.md'
-]
-- 'Backups': [
-    'Backup database': 'backups/backup-databases.md'
-]
-- 'FAQ': 'faq.md'
+- 'Quick Start': 'quick-start.md'
+- 'Providers':
+  - 'Overview': 'providers/overview.md'
+  - 'Digital Ocean': 'providers/digital-ocean.md'
+  - 'AWS': 'providers/aws.md'
 
 markdown_extensions:
-    - admonition
-    - codehilite:
-        guess_lang: false
-    - footnotes
-    - meta
-    - pymdownx.superfences
-    - toc:
-        permalink: true
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - footnotes
+  - meta
+  - pymdownx.superfences
+  - toc:
+      permalink: true
 theme:
+  language: 'en'
   name: 'material'
+  logo: 'images/logo.svg'
   palette:
-    primary: 'blue'
+    primary: 'white'
     accent: 'purple'
-#   logo: 'images/white-cloud-icon.svg'
-repo_url: http://github.com/vapor-cloud/docsv2
-edit_uri: https://github.com/vapor-cloud/docsv2/edit/master/docs/
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+repo_url: http://github.com/qutheory/red-docs
+edit_uri: https://github.com/qutheory/red-docs/edit/master/docs/
 extra:
-    social:
-        - type: 'twitter'
-          link: 'https://twitter.com/@codevapor'
-        - type: 'slack'
-          link: 'http://vapor.team/'
-        - type: 'github'
-          link: 'https://github.com/vapor'
-    font:
-        text: 'Roboto Slab'
-        code: 'Source Code Pro'
-extra_css:
-  - 'stylesheets/extra.css'
+  social:
+    - type: 'twitter'
+      link: 'https://twitter.com/@codevapor'
+    - type: 'slack'
+      link: 'http://vapor.team/'
+    - type: 'github'
+      link: 'https://github.com/vapor'
+  font:
+    text: 'Roboto Slab'
+    code: 'Source Code Pro'
