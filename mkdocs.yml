@@ -5,7 +5,6 @@ nav:
 - 'Overview': 'index.md'
 - 'Quick Start': 'quick-start.md'
 - 'Providers':
-  - 'Overview': 'providers/overview.md'
   - 'Digital Ocean': 'providers/digital-ocean.md'
   - 'AWS': 'providers/aws.md'
 
