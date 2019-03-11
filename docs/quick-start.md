@@ -49,13 +49,23 @@ Click next, then fill in the appropriate branch and framework.
 
 ![No apps yet](../images/new-app-form.png)
 
-## Configure App
+Once you have filled in all required fields, click Create App.
 
-When the app is created, you can go to settings
+## Bootstrap App
+
+After your app has been created, you will be directed to the app bootstrap guide. This guides you through setting up your application step-by-step. 
+
+Follow these instructions until you are finished. Then, click deploy!
+
+![App Deployments](../images/app-deployments.png)
+
+## Advanced config
+
+You can configure your application in the settings page.
 
 ![app3](https://user-images.githubusercontent.com/2535140/53724932-4b76a400-3e6b-11e9-8371-484f1aef6388.png)
 
-here you see four different boxes:
+Here you see four different boxes:
 
 1. Environment
 Here you can set environment variables your app need, you should add one per line, e.g.:
@@ -82,7 +92,7 @@ Before accessing the app, we need to setup a firewall rule, so go to `Network` a
 
 The port is the port of the app, since this is your first app, enter `8000`. The source is where it's accessible from, `0.0.0.0/0` will allow access from all IPv4 (It's currently not possible to allow IPv6 this will come later)
 
-After this you can access your app on http://SERVER-IP:8000
+After this you can access your app at `http://SERVER-IP:8000`.
 
 ### View application logs
 
@@ -125,6 +135,5 @@ Go to `Network` and create a new rule
 * Port is `5432` which is the default port for PostgreSQL
 * Source is `0.0.0.0/0` which is everywhere
 
-::: warning Important
-It's generally adviced to **NOT** allow access from everywhere, instead use your external ip, you should end the IP with `/32` to only allow that specific ip.
-:::
+!!! warning
+	It's generally adviced to **NOT** allow access from everywhere, instead use your external ip, you should end the IP with `/32` to only allow that specific ip.
