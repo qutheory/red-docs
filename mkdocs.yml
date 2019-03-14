@@ -7,6 +7,12 @@ nav:
 - 'Providers':
   - 'Digital Ocean': 'providers/digital-ocean.md'
   - 'AWS': 'providers/aws.md'
+- 'Application':
+  - 'Setup domain': 'application/setup-domain.md'
+- 'Security':
+  - 'Account security': 'security/account-security.md'
+  - 'Server security': 'security/server-security.md'
+- 'Company': 'company.md'
 
 markdown_extensions:
   - admonition
