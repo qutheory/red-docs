@@ -16,6 +16,12 @@ Enter your domain name, and then setup Reverse Proxy and Root location
 
 After the state of the domain is `Running`, you can click on it, here can edit, delete and setup TLS.
 
+Before you can access the nginx instance publicly we need to open up the firewall for port 80 and 443, this can be done like this
+
+![Domain network http](../images/domain_network_80.png)
+
+![Domain network https](../images/domain_network_443.png)
+
 !!! important
     Before setting up TLS, make sure you have setup DNS for the domain
 
