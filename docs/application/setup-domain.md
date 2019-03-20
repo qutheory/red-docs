@@ -2,6 +2,8 @@
 
 If you want to use your own domain name for Vapor Red, you can easily set this up. First make sure you install nginx under `Tools`.
 
+![Install nginx](../images/install_nginx.png)
+
 !!! important
     Before your domain work, make sure to setup an A record in your DNS to your servers ip.
 
