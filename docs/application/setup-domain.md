@@ -30,3 +30,20 @@ Before you can access the nginx instance publicly we need to open up the firewal
 Under `Edit` you can edit the domain, including the Nginx config file.
 
 ![Show domain](../images/show-domain.png)
+
+## Allowing websocket upgrade
+
+Per default, nginx isn't configured for websockets. However, this can easily be added to the configuration.
+
+Click edit on the domain, and under Nginx configuration, find the `location @proxy {` section, and add:
+
+```
+# Websocket settings
+proxy_http_version 1.1;
+proxy_set_header Upgrade $http_upgrade;
+proxy_set_header Connection "Upgrade";
+```
+
+Like this
+
+![Domain websocket](../images/domain-websocket.png)
