@@ -13,6 +13,7 @@ nav:
   - 'Account security': 'security/account-security.md'
   - 'Server security': 'security/server-security.md'
 - 'Company': 'company.md'
+- 'Billing': 'billing/index.md'
 - 'Monitoring': 'monitoring.md'
 
 markdown_extensions:
