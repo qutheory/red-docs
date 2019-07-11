@@ -7,6 +7,7 @@ nav:
 - 'Providers':
   - 'Digital Ocean': 'providers/digital-ocean.md'
   - 'AWS': 'providers/aws.md'
+  - 'Linode': 'providers/linode.md'
 - 'Application':
   - 'Setup domain': 'application/setup-domain.md'
 - 'Security':
