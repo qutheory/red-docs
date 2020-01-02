@@ -1,4 +1,4 @@
-We are sad to announce that Vapor Red will be shutting down on March 31st. Service will be free starting today until shutdown to help you migrate away. 
+We are sad to announce that Vapor Red will be shutting down on March 31st. Service will be free starting today until shutdown to help you migrate away. After Vapor Red shuts down, your servers will continue to run and be accessible via your service provider's dashboard. Please note you will continue to be billed by your service provider normally. 
 
 For more information on the shutdown, including guides for migrating to other platforms, please visit our docs. 
 
