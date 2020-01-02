@@ -16,6 +16,9 @@ nav:
 - 'Company': 'company.md'
 - 'Billing': 'billing/index.md'
 - 'Monitoring': 'monitoring.md'
+- 'Shutdown': 
+  - 'Shutdown': 'shutdown/index.md'
+  - 'Migrate to Heroku': 'shutdown/migrate-to-heroku.md'
 
 markdown_extensions:
   - admonition
